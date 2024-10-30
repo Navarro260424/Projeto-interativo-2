@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>O Enigma da Cidade Oculta</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Durante uma visita a uma feira de antiguidades, encontro um diário antigo e misterioso. Ele descreve uma cidade oculta, protegida por guardiões mágicos e repleta de artefatos raros. Decido embarcar nesta jornada para encontrar a cidade e seu lendário tesouro, prometido a quem desvendar os enigmas deixados pelos antigos.</p>
+            <button class="btn-proximo" data-proximo="1">Explorar o litoral rochoso do Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">Seguir para as cavernas de Pernambuco</button>
+        </div>
+        
+        <div class="passo" id="passo-1">
+            <p>No Rio de Janeiro, você descobre uma gruta escondida entre as rochas do litoral. Dentro dela, há desenhos antigos que sugerem o próximo passo na busca pela cidade oculta.</p>
+            <button class="btn-proximo" data-proximo="3">Decifrar as inscrições da gruta</button>
+            <button class="btn-proximo" data-proximo="4">Desistir da jornada e voltar para casa</button>
+        </div>
+        
+        <div class="passo" id="passo-2">
+            <p>Em Pernambuco, você encontra uma caverna mística na floresta. No diário, a próxima pista diz que a cidade está próxima a uma fonte sagrada, mas primeiro você precisa escolher um caminho.</p>
+            <button class="btn-proximo" data-proximo="5">Seguir a trilha que leva à nascente</button>
+            <button class="btn-proximo" data-proximo="6">Explorar a trilha entre árvores petrificadas</button>
+        </div>
+        
+        <div class="passo" id="passo-3">
+            <p>Decifrando as inscrições, você encontra um símbolo mágico que brilha e indica o caminho para o Amazonas, onde dizem que os guardiões da cidade oculta vigiam as entradas.</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para o Amazonas</button>
+        </div>
+        
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4-voltar-casa.png" alt="imagem de retorno">
+            <p>Desistindo da jornada, você volta para casa, mas continua intrigado pelo mistério da cidade oculta e os segredos que ela esconde.</p>
+        </div>
+        
+        <div class="passo" id="passo-5">
+            <p>Seguindo a trilha até a nascente, você encontra uma chave dourada escondida entre as pedras, junto com instruções para o próximo destino: o coração da Amazônia.</p>
+            <button class="btn-proximo" data-proximo="7">Partir para a Amazônia</button>
+        </div>
+        
+        <div class="passo" id="passo-6">
+            <p>A trilha entre as árvores petrificadas leva a um labirinto que termina em um beco sem saída. Você percebe que terá que tentar outro caminho.</p>
+            <button class="btn-proximo" data-proximo="8">Retornar e seguir pela trilha da nascente</button>
+        </div>
+        
+        <div class="passo" id="passo-7">
+            <p>Chegando na Amazônia, você ouve rumores de que a cidade oculta é guardada por uma criatura mítica. O caminho se divide em duas trilhas: uma leva para um vale escuro, e a outra, para uma floresta brilhante.</p>
+            <button class="btn-proximo" data-proximo="9">Entrar no vale escuro</button>
+            <button class="btn-proximo" data-proximo="10">Seguir para a floresta brilhante</button>
+        </div>
+        
+        <div class="passo" id="passo-8">
+            <p>Retornando à trilha da nascente, você encontra a chave dourada e as instruções para o Amazonas. Agora, você está pronto para continuar a jornada!</p>
+            <button class="btn-proximo" data-proximo="7">Partir para a Amazônia</button>
+        </div>
+        
+        <div class="passo" id="passo-9">
+            <p>O vale escuro está coberto de névoa, e você encontra uma inscrição na pedra, indicando que a entrada da cidade oculta está próxima. Ela leva até uma caverna protegida por um guardião misterioso.</p>
+            <button class="btn-proximo" data-proximo="11">Enfrentar o guardião e entrar na cidade</button>
+        </div>
+        
+        <div class="passo" id="passo-10">
+            <p>Na floresta brilhante, você vê luzes místicas, mas percebe que é um caminho sem saída. Nada indica que a cidade oculta está por ali.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o vale escuro</button>
+        </div>
+        
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo11-cidade-perdida.png" alt="Imagem da cidade oculta">
+            <p>Após derrotar o guardião, você encontra a entrada da cidade oculta. Entre ruínas antigas e artefatos raros, você jura proteger os mistérios desse lugar.</p>
+        </div>
+        
+        <div class="passo" id="passo-12">
+            <p>Retornando ao vale escuro, você finalmente encontra a entrada da caverna onde o guardião aguarda. Agora, a cidade oculta está ao seu alcance!</p>
+            <button class="btn-proximo" data-proximo="11">Entrar na cidade oculta</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
